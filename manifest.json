@@ -1,0 +1,13 @@
+{
+    "name": "Duolingo Search",
+    "description": "Search duolingo",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "icon48.png",
+        "48": "icon48.png"
+    },
+    "manifest_version": 3,
+    "version": "0"
+}
