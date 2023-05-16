@@ -1,8 +1,15 @@
 {
     "name": "Duolingo Search",
     "description": "Search duolingo",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "service_worker.js",
+        "type": "module"
+    },
     "action": {
-        "default_popup": "index.html"
     },
     "icons": {
         "16": "icon48.png",
